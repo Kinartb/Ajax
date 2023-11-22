@@ -71,6 +71,13 @@ html, body {
     margin: 1em 0;
     padding: 4px;
   }
+  #movieInfo {
+  padding: 2ex;
+  position: absolute;
+  border: 2px double grey;
+  background: wheat;
+  }
+
   form label {
     display: block;
     line-height: 25px;
