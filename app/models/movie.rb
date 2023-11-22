@@ -14,9 +14,8 @@ class Movie < ActiveRecord::Base
     def grandfathered?
         release_date && release_date < @@grandfathered_date
     end
-end
 =end
-begin
+end
 class Movie < ActiveRecord::Base
     has_many :reviews
     before_save :capitalize_title
