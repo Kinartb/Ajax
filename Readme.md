@@ -49,7 +49,7 @@ end
 
 Explica el siguiente código
 
-```
+```javascript
 var MoviePopup = {
   setup: function() {
     // add hidden 'div' to end of page to display popup:
