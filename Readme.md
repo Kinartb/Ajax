@@ -4,7 +4,7 @@ Antes de comenzar con lo pedido vamos a ver si todo se resuelve correctamente pa
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/1.png)
 
-Vemos que aparece un error que indica que aun no se ha creado la tabla `moviegoes`
+Vemos que aparece un error que indica que aun no se ha creado las mgiraciones, una vez realizada la migracion con `rails migration`
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/2.png)
 
