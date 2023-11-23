@@ -1,10 +1,16 @@
 ## AJAX: Asynchronous JavaScript y XML
 
-Antes de comenzar con lo pedido vamos a ver si todo se resuelve correctamente para esto ejecutamos `bundle install` y posteriormente `rails server`.
+Antes de comenzar con lo pedido vamos a ver si todo se resuelve correctamente para esto ejecutamos `bundle install` y posteriormente `rails server` y verificamos en la pagina web local.
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/1.png)
 
 Vemos que aparece un error que indica que aun no se ha creado la tabla `moviegoes`
+
+![](https://github.com/Kinartb/Ajax/blob/main/imagenes/2.png)
+
+Se soluciona el error y se escribe `rails server`
+
+![](https://github.com/Kinartb/Ajax/blob/main/imagenes/3.png)
 
 ### Parte 1
 
