@@ -25,7 +25,7 @@ El paso 1 necesita que identifiquemos o creemos una nueva acción de controlador
 
 Modifica la acción `show` de forma que, si está respondiendo a una petición AJAX, procesará la sencilla vista parcial el código siguiente en lugar de la vista completa.
 
-```
+```html
  <p> <%= movie.description %> </p>
  <%= link_to 'Edit Movie', edit_movie_path(movie), :class => 'btn btn-primary' %>
  <%= link_to 'Close', '', :id => 'closeLink', :class => 'btn btn-secondary' %>
