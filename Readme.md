@@ -17,12 +17,17 @@ El paso 1 necesita que identifiquemos o creemos una nueva acción de controlador
 
 Modifica la acción `show` de forma que, si está respondiendo a una petición AJAX, procesará la sencilla vista parcial el código siguiente en lugar de la vista completa.
 
-```html
+Este codigose implementa en `app/views/movies/show.html.erb`
+
+```erb
  <p> <%= movie.description %> </p>
  <%= link_to 'Edit Movie', edit_movie_path(movie), :class => 'btn btn-primary' %>
  <%= link_to 'Close', '', :id => 'closeLink', :class => 'btn btn-secondary' %>
 ```
+
 ¿Cómo sabe la acción de controlador si `show` fue llamada desde código JavaScript o mediante una petición HTTP normal iniciada por el usuario? Utiliza el código siguiente  para mostrar la acción del controlador que renderizará la vista parcial. 
+
+Este codigo es que se va a implementar en `movies_controller.rb`
 
 ```ruby
 class MoviesController < ApplicationController
