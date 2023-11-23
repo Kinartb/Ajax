@@ -1,5 +1,6 @@
 ## AJAX: Asynchronous JavaScript y XML
 
+Antes de comenzar con lo pedido vamos a ver si todo se resuelve correctamente para esto ejecutamos `bundle install` y posteriormente `rails server`
 
 ### Parte 1
 
@@ -24,7 +25,6 @@ class MoviesController < ApplicationController
   end
 end
 ```
-
 ### Parte 2
 
  ¿Cómo debería construir y lanzar la petición XHR el código JavaScript? Queremos que la ventana flotante aparezca cuando pinchamos en el enlace que tiene el nombre de la película.
