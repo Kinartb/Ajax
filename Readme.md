@@ -8,9 +8,8 @@ Vemos que aparece un error que indica que aun no se ha creado las mgiraciones, u
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/2.png)
 
+Una vez solucionadas nuestros problemas podemos ir a realizar la actividad.
 
-
-![](https://github.com/Kinartb/Ajax/blob/main/imagenes/3.png)
 
 ### Parte 1
 
@@ -35,6 +34,9 @@ class MoviesController < ApplicationController
   end
 end
 ```
+
+![](https://github.com/Kinartb/Ajax/blob/main/imagenes/3.png)
+
 ### Parte 2
 
  ¿Cómo debería construir y lanzar la petición XHR el código JavaScript? Queremos que la ventana flotante aparezca cuando pinchamos en el enlace que tiene el nombre de la película.
