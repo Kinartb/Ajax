@@ -102,12 +102,16 @@ Ocurren algunos trucos interesantes de CSS en el código anterior Puesto que el 
 
 ¿Cuáles son tus resultados?
 
-Por el momento al ejecutar `rails server` teniendo cuenta el error anterior, pues no hay ningun cambio significativo
-
-Por el momento no hay un cambio totalmente visible
+*RPTA*: Por el momento al ejecutar `rails server` teniendo cuenta el error anterior, pues no hay ningun cambio.
 
 ### Parte 3
 
 Conviene mencionar una advertencia a considerar cuando se usa JavaScript para crear nuevos elementos dinámicamente en tiempo de ejecución, aunque no surgió en este ejemplo en concreto. Sabemos que `$(.myClass).on(click,func)` registra `func` como el manejador de eventos de clic para todos los elementos actuales que coincidan con la clase CSS myClass. Pero si se utiliza JavaScript para crear nuevos elementos que coincidan con `myClass` después de la carga inicial de la página y de la llamada inicial a `on`, dichos elementos no tendrán el manejador asociado, ya que `on` sólo puede asociar manejadores a elementos existentes. 
 
 ¿Cuál es solución que brinda jQuery  a este problema? 
+
+jQuery proporciona el método on con la delegación de eventos. Para el caso de `MoviePopup`. Se puede reescribir parte del código como sigue:
+
+```javascript
+$(document).on('click', '#movies a', MoviePopup.getMovieInfo);
+```
