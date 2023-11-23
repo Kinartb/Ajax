@@ -88,7 +88,7 @@ $(MoviePopup.setup);
 
 Ocurren algunos trucos interesantes de CSS en el código anterior Puesto que el objetivo es que la ventana emergente `flote`, podemos utilizar CSS para especificar la posición como absolute añadiendo el siguiente código en `app/assets/stylesheets/application.css` :
 
-```
+```ccs
 #movieInfo {
   padding: 2ex;
   position: absolute;
