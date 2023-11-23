@@ -110,8 +110,10 @@ Conviene mencionar una advertencia a considerar cuando se usa JavaScript para cr
 
 ¿Cuál es solución que brinda jQuery  a este problema? 
 
-jQuery proporciona el método on con la delegación de eventos. Para el caso de `MoviePopup`. Se puede reescribir parte del código como sigue:
+*RPTA*: jQuery proporciona el método on con la delegación de eventos. Para el caso de `MoviePopup`. Se puede reescribir parte del código como sigue:
 
 ```javascript
 $(document).on('click', '#movies a', MoviePopup.getMovieInfo);
 ```
+
+Aquí, *$(document)* es el contenedor existente, *'click'* es el tipo de evento, *#movies* a es el selector dinámico que apunta a los enlaces dentro de *#movies*, y *MoviePopup.getMovieInfo* es el manejador de eventos.
