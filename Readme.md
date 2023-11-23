@@ -2,7 +2,7 @@
 
 Antes de comenzar con lo pedido vamos a ver si todo se resuelve correctamente para esto ejecutamos `bundle install` y posteriormente `rails server`.
 
-![]()
+![](https://github.com/Kinartb/Ajax/blob/main/imagenes/1.png)
 
 Vemos que aparece un error que indica que aun no se ha creado la tabla `moviegoes`
 
