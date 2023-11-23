@@ -39,6 +39,7 @@ class MoviesController < ApplicationController
   end
 end
 ```
+A continaucion ejecutamos  `rails server` y vemos que todo nos sale normal pero al momento de dar clic en 
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/3.png)
 
