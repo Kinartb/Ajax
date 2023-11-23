@@ -49,6 +49,8 @@ Este error indica que el controlador MoviesController no tiene una plantilla (te
 
  ¿Cómo debería construir y lanzar la petición XHR el código JavaScript? Queremos que la ventana flotante aparezca cuando pinchamos en el enlace que tiene el nombre de la película.
 
+RPTA:  lo que realiza el siguiente código es que proporciona una forma de mostrar información de películas en una ventana cuando el usuario hace clic en enlaces con el ID movies. Utiliza AJAX para obtener datos de la película y luego muestra estos datos en una ventana emergente.
+
 Explica el siguiente código
 
 ```javascript
