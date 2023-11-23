@@ -32,7 +32,7 @@ Modifica la acción `show` de forma que, si está respondiendo a una petición A
 ```
 ¿Cómo sabe la acción de controlador si `show` fue llamada desde código JavaScript o mediante una petición HTTP normal iniciada por el usuario? Utiliza el código siguiente  para mostrar la acción del controlador que renderizará la vista parcial. 
 
-```
+```ruby
 class MoviesController < ApplicationController
   def show
     id = params[:id] # retrieve movie ID from URI route
