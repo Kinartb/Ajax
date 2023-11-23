@@ -1,6 +1,10 @@
 ## AJAX: Asynchronous JavaScript y XML
 
-Antes de comenzar con lo pedido vamos a ver si todo se resuelve correctamente para esto ejecutamos `bundle install` y posteriormente `rails server`
+Antes de comenzar con lo pedido vamos a ver si todo se resuelve correctamente para esto ejecutamos `bundle install` y posteriormente `rails server`.
+
+![]()
+
+Vemos que aparece un error que indica que aun no se ha creado la tabla `moviegoes`
 
 ### Parte 1
 
