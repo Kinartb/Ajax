@@ -4,11 +4,11 @@ Antes de comenzar con lo pedido vamos a ver si todo se resuelve correctamente pa
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/1.png)
 
-Vemos que aparece un error que indica que aun no se ha creado las mgiraciones, una vez realizada la migracion con `rails migration`
+Vemos que aparece un error que indica que aun no se ha creado las mgiraciones, una vez realizada la migracion con `rails db:migrate RAILS_ENV=development`, posteriormente habra otro error que diga que no se encuentra la tabla `moviegoes` y luego otro error de indección donde se encuentra un `end` de más. Se solucionan los errores y se escribe `rails server` y veremos los resultados en la pagina web local.
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/2.png)
 
-Se soluciona el error y se escribe `rails server`
+
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/3.png)
 
