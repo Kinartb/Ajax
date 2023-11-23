@@ -49,8 +49,6 @@ Este error indica que el controlador MoviesController no tiene una plantilla (te
 
  ¿Cómo debería construir y lanzar la petición XHR el código JavaScript? Queremos que la ventana flotante aparezca cuando pinchamos en el enlace que tiene el nombre de la película.
 
-RPTA:  lo que realiza el siguiente código es que proporciona una forma de mostrar información de películas en una ventana cuando el usuario hace clic en enlaces con el ID movies. Utiliza AJAX para obtener datos de la película y luego muestra estos datos en una ventana emergente.
-
 Explica el siguiente código
 
 ```javascript
@@ -89,6 +87,7 @@ var MoviePopup = {
 };
 $(MoviePopup.setup);
 ```
+*RPTA*:  lo que realiza el siguiente código es que proporciona una forma de mostrar información de películas en una ventana cuando el usuario hace clic en enlaces con el ID movies. Utiliza AJAX para obtener datos de la película y luego muestra estos datos en una ventana emergente.
 
 Ocurren algunos trucos interesantes de CSS en el código anterior Puesto que el objetivo es que la ventana emergente `flote`, podemos utilizar CSS para especificar la posición como absolute añadiendo el siguiente código en `app/assets/stylesheets/application.css` :
 
@@ -102,6 +101,8 @@ Ocurren algunos trucos interesantes de CSS en el código anterior Puesto que el 
 ```
 
 ¿Cuáles son tus resultados?
+
+Por el momento al ejecutar `rails server` teniendo cuenta el error anterior, pues no hay ningun cambio significativo
 
 Por el momento no hay un cambio totalmente visible
 
