@@ -107,6 +107,21 @@ Ocurren algunos trucos interesantes de CSS en el código anterior Puesto que el 
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/4.png)
 
+
+### Parte 3
+
+Conviene mencionar una advertencia a considerar cuando se usa JavaScript para crear nuevos elementos dinámicamente en tiempo de ejecución, aunque no surgió en este ejemplo en concreto. Sabemos que `$(.myClass).on(click,func)` registra `func` como el manejador de eventos de clic para todos los elementos actuales que coincidan con la clase CSS myClass. Pero si se utiliza JavaScript para crear nuevos elementos que coincidan con `myClass` después de la carga inicial de la página y de la llamada inicial a `on`, dichos elementos no tendrán el manejador asociado, ya que `on` sólo puede asociar manejadores a elementos existentes. 
+
+¿Cuál es solución que brinda jQuery  a este problema? 
+
+*RPTA*: jQuery proporciona el método on con la delegación de eventos. Para el caso de `Ajax/app/assets/javascripts/movie_popup.js`. Se puede reescribir parte del código como sigue:
+
+```javascript
+$(document).on('click', '#movies a', MoviePopup.getMovieInfo);
+```
+
+Aquí, *$(document)* es el contenedor existente, *'click'* es el tipo de evento, *#movies* a es el selector dinámico que apunta a los enlaces dentro de *#movies*, y *MoviePopup.getMovieInfo* es el manejador de eventos.
+
 Al hacer clic en en editar se nos abrira la ventana a cotinuacion.
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/5.png)
@@ -117,19 +132,5 @@ Cambiamos el valor a 1970 y vemos como cambia, hacemos clic en update.
 
 Vemos que se ha realizado el cambio correctamente pasando de 1977 a 1970.
 
-
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/7.png)
 
-### Parte 3
-
-Conviene mencionar una advertencia a considerar cuando se usa JavaScript para crear nuevos elementos dinámicamente en tiempo de ejecución, aunque no surgió en este ejemplo en concreto. Sabemos que `$(.myClass).on(click,func)` registra `func` como el manejador de eventos de clic para todos los elementos actuales que coincidan con la clase CSS myClass. Pero si se utiliza JavaScript para crear nuevos elementos que coincidan con `myClass` después de la carga inicial de la página y de la llamada inicial a `on`, dichos elementos no tendrán el manejador asociado, ya que `on` sólo puede asociar manejadores a elementos existentes. 
-
-¿Cuál es solución que brinda jQuery  a este problema? 
-
-*RPTA*: jQuery proporciona el método on con la delegación de eventos. Para el caso de `MoviePopup`. Se puede reescribir parte del código como sigue:
-
-```javascript
-$(document).on('click', '#movies a', MoviePopup.getMovieInfo);
-```
-
-Aquí, *$(document)* es el contenedor existente, *'click'* es el tipo de evento, *#movies* a es el selector dinámico que apunta a los enlaces dentro de *#movies*, y *MoviePopup.getMovieInfo* es el manejador de eventos.
