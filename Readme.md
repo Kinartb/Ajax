@@ -133,4 +133,11 @@ Cambiamos el valor a 1970 y vemos como cambia, hacemos clic en update.
 Vemos que se ha realizado el cambio correctamente pasando de 1977 a 1970.
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/7.png)
+## CONSIDERACIONES:
+
+Para esta actividad se ha de crear una vista para poder editar, para este caso se creó: `Ajax/app/views/movies/edit.html.erb`
+
+Es necesario agregar  `<div class="col-8"> <%= link_to movie.title, movie_path(movie), data: { method: 'get'} %> </div>` en `Ajax/app/views/movies/index.html.erb` para poder usar el método get y que al hacer clic en el hipervínculo, se debe realizar una solicitud HTTP GET.
+
+Se debe agregar `//= link movie_popup.js` a `app/assets/config/manifest.js` para incluir el archivo movie_popup.js en la aplicación.
 
