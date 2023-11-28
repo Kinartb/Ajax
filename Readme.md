@@ -41,7 +41,7 @@ end
 ```
 A continaucion ejecutamos  `rails server` y vemos que todo nos sale normal pero al momento de dar clic en  `Edit movie` vemos que nos sale un error
 
-Este error indica que el controlador MoviesController no tiene una plantilla (template) asociada para el formato de solicitud text/html.
+Este error indica que el controlador MoviesController no tiene una plantilla (template) asociada para el formato de solicitud text/html entonces tenemos que modificar el controloador y agregar una vista.
 
 ### Parte 2
 
@@ -100,9 +100,11 @@ Ocurren algunos trucos interesantes de CSS en el código anterior Puesto que el 
 
 ¿Cuáles son tus resultados?
 
-*RPTA*: Por el momento al ejecutar `rails server` teniendo cuenta el error anterior y editar la vista.
+*RPTA*: Por el momento al ejecutar `rails server` teniendo cuenta el error anterior era porque en `movie.rb` habia escrito `moviegoer` en lugar de `movie`, ahora se tiene una diferente vista y al apretar clic en una pelicula aparece una ventana emergente la cual nos dara la opcion de editar valores de la pelicula.
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/4.png)
+
+Al hacer clic en en editar se nos abrira la ventana a cotinuacion
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/5.png)
 
