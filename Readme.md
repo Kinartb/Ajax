@@ -100,7 +100,7 @@ Ocurren algunos trucos interesantes de CSS en el código anterior Puesto que el 
 
 ¿Cuáles son tus resultados?
 
-*RPTA*: Por el momento al ejecutar `rails server` teniendo cuenta el error anterior, pues no hay ningun cambio.
+*RPTA*: Por el momento al ejecutar `rails server` teniendo cuenta el error anterior y editar la vista.
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/4.png)
 
@@ -108,7 +108,7 @@ Ocurren algunos trucos interesantes de CSS en el código anterior Puesto que el 
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/6.png)
 
-![](https://github.com/Kinartb/Ajax/blob/main/imagenes/6.png)
+![](https://github.com/Kinartb/Ajax/blob/main/imagenes/7.png)
 
 ### Parte 3
 
