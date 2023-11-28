@@ -104,11 +104,16 @@ Ocurren algunos trucos interesantes de CSS en el código anterior Puesto que el 
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/4.png)
 
-Al hacer clic en en editar se nos abrira la ventana a cotinuacion
+Al hacer clic en en editar se nos abrira la ventana a cotinuacion.
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/5.png)
 
+Cambiamos el valor a 1970 y vemos como cambia, hacemos clic en update.
+
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/6.png)
+
+Vemos que se ha realizado el cambio correctamente pasando de 1977 a 1970.
+
 
 ![](https://github.com/Kinartb/Ajax/blob/main/imagenes/7.png)
 
