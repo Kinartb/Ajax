@@ -50,7 +50,7 @@ Este error indica que el controlador MoviesController no tiene una plantilla (te
 
  ¿Cómo debería construir y lanzar la petición XHR el código JavaScript? Queremos que la ventana flotante aparezca cuando pinchamos en el enlace que tiene el nombre de la película.
 
-Explica el siguiente código
+El siguiente codigo será agregado en `Ajax/app/assets/javascripts/movie_popup.js`
 
 ```javascript
 var MoviePopup = {
