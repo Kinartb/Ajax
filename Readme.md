@@ -39,9 +39,7 @@ class MoviesController < ApplicationController
   end
 end
 ```
-A continaucion ejecutamos  `rails server` y vemos que todo nos sale normal pero al momento de dar clic en  `Add Movie` vemos que nos sale este error. 
-
-![](https://github.com/Kinartb/Ajax/blob/main/imagenes/3.png)
+A continaucion ejecutamos  `rails server` y vemos que todo nos sale normal pero al momento de dar clic en  `Edit movie` vemos que nos sale un error
 
 Este error indica que el controlador MoviesController no tiene una plantilla (template) asociada para el formato de solicitud text/html.
 
